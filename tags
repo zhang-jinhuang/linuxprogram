@@ -4,10 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+buf	week7/code/inclass/2.c	/^char buf[] = {"write to stdout\\n"};$/;"	v	language:C
 initarray	week6/code/dynamiclib/base.c	/^void initarray(int * a,int n)$/;"	f	language:C	signature:(int * a,int n)
 initarray	week6/code/staticlib/base.c	/^void initarray(int * a,int n)$/;"	f	language:C	signature:(int * a,int n)
 main	week6/code/exam/remotetest.c	/^int main()$/;"	f	language:C
+main	week6/code/exam2/dytestrt.c	/^int main()$/;"	f	language:C
+main	week6/code/exam2/ldtestremote.c	/^int main()$/;"	f	language:C
 main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
+main	week7/code/inclass/1.c	/^int main(int argc, char *argv[])$/;"	f	language:C	signature:(int argc, char *argv[])
+main	week7/code/inclass/2.c	/^int main()$/;"	f	language:C
+main	week7/code/inclass/seven.cpp	/^int main(){$/;"	f	language:C++	signature:()
 max	week6/code/dynamiclib/aoperation.c	/^int max(int * a,int n)$/;"	f	language:C	signature:(int * a,int n)
 max	week6/code/staticlib/aoperation.c	/^int max(int * a,int n)$/;"	f	language:C	signature:(int * a,int n)
 showarray	week6/code/dynamiclib/base.c	/^void showarray(int * a,int n)$/;"	f	language:C	signature:(int * a,int n)
