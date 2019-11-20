@@ -12,7 +12,6 @@ int main()
 	{
 		printf("child %d is running!\n", getpid());
 		printf("child will exit!\n");
-		while(1);
 		exit(120);
 	}
 	else

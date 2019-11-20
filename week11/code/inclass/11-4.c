@@ -19,9 +19,17 @@ int main()
 	else
 	{
 		printf("parent waiting child %d to exit!\n", pid);
-		r=wait(&status);
-		printf("child %d is finished.return code = %d\n", r,WEXITSTATUS(status));
-		sleep(15);
+		while((r=wait(&status))!=-1)
+		{
+			if(WIFEXITED(status))
+				printf("child %d is finished with exit mode. exit code = %d\n", r,WEXITSTATUS(status));
+			else if(WIFSIGNALED(status))
+				printf("child %d is finished with signal mode. signal code = %d\n", r,WTERMSIG(status));
+			else
+				printf("unknow mode!\n");
+		}
+
+		//sleep(15);
 		printf("parent %d is running!\n", getpid());
 		return 0;
 	}
