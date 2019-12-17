@@ -11,3 +11,5 @@
 #define NUM 4
 
 #define LOOP 10000000
+
+#define TN 100
